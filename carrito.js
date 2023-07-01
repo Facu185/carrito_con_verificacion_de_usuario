@@ -60,7 +60,7 @@ function renderCarrito() {
         verifica = data;
         if (verifica === 1){
         
-          alert("Usuario logueado correctamente");
+          alert("Compraste los articulos del carrito");
           localStorage.removeItem("carrito");
           location.reload();
            
